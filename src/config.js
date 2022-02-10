@@ -1,0 +1,23 @@
+module.exports = {
+  extends: ['@commitlint/config-conventional'],
+  rules: {
+    'type-enum': [
+      2,
+      'always',
+      [
+        'feat',
+        'fix',
+        'perf',
+        'revert',
+        'docs',
+        'chore',
+        'refactor',
+        'test',
+        'build'
+      ]
+    ],
+    'header-max-length': [1, 'always', 50],
+    'body-max-line-length': [1, 'always', 80],
+    'footer-max-line-length': [1, 'always', 80]
+  }
+};
