@@ -1,5 +1,3 @@
 {
-  "extends": [
-    "./src/config.js"
-  ]
+  "extends": "./src/config.js"
 }
