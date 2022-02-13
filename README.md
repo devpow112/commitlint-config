@@ -21,7 +21,7 @@ file.
 
 ```json
 {
-  "extends": ["@devpow112/commitlint-config"]
+  "extends": "@devpow112/commitlint-config"
 }
 ```
 
