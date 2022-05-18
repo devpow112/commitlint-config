@@ -36,11 +36,11 @@
     "npm": ">=6.14.15"
   },
   "peerDependencies": {
-    "@commitlint/cli": "^16.2.4",
+    "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^16.2.4",
+    "@commitlint/cli": "^17.0.0",
     "@commitlint/config-conventional": "^17.0.0",
     "@devpow112/eslint-config": "^1.1.2",
     "@devpow112/semantic-release-config": "^1.1.0",
