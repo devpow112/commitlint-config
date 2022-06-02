@@ -1,8 +1,14 @@
+const Level = Object.freeze({
+  DISABLE: 0,
+  WARNING: 1,
+  ERROR: 2
+});
+
 module.exports = {
   extends: ['@commitlint/config-conventional'],
   rules: {
     'type-enum': [
-      2,
+      Level.ERROR,
       'always',
       [
         'feat',
@@ -16,8 +22,8 @@ module.exports = {
         'build'
       ]
     ],
-    'header-max-length': [1, 'always', 50],
-    'body-max-line-length': [1, 'always', 80],
-    'footer-max-line-length': [1, 'always', 80]
+    'header-max-length': [Level.WARNING, 'always', 50],
+    'body-max-line-length': [Level.WARNING, 'always', 80],
+    'footer-max-line-length': [Level.WARNING, 'always', 80]
   }
 };
