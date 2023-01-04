@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/commitlint-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Shareable commitlint configuration",
   "main": "src/config.js",
   "publishConfig": {
