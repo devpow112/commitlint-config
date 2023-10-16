@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^17.8.0",
-    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/config-conventional": "^17.8.0",
     "@devpow112/eslint-config": "^2.0.1",
     "@devpow112/semantic-release-config": "^2.1.2",
     "eslint": "^8.51.0",
