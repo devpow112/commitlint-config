@@ -3,7 +3,6 @@
 [![License][License Badge]](LICENSE)
 [![Version][Version Badge]][Version Package]
 [![Release][Release Badge]][Release Workflow]
-[![Vulnerabilities][Vulnerabilities Badge]][Vulnerabilities Report]
 [![Node Version][Node Version Badge]](package.json#L49)
 
 Shareable commitlint configuration.
@@ -59,22 +58,22 @@ npm run lint:md
 npm run lint:pkg
 ```
 
-### Formatting
+### Fixing
 
-Execute formatters via `npm`.
+Execute automatic fixers via `npm`.
 
 ```console
 # javascript, markdown and package.json
-npm run format
+npm run fix
 
 # javascript only
-npm run format:js
+npm run fix:js
 
 # markdown only
-npm run format:md
+npm run fix:md
 
 # package.json only
-npm run format:pkg
+npm run fix:pkg
 ```
 
 <!-- links -->
@@ -84,6 +83,4 @@ npm run format:pkg
 [Node Version Badge]: https://img.shields.io/node/v/@devpow112/commitlint-config
 [Release Badge]: https://github.com/devpow112/commitlint-config/actions/workflows/release.yml/badge.svg?branch=main
 [Release Workflow]: https://github.com/devpow112/commitlint-config/actions/workflows/release.yml?query=branch%3Amain
-[Vulnerabilities Badge]: https://img.shields.io/snyk/vulnerabilities/github/devpow112/commitlint-config?label=Vulnerabilities
-[Vulnerabilities Report]: https://snyk.io/test/github/devpow112/commitlint-config
 [CommitLint configuration]: https://github.com/conventional-changelog/commitlint/blob/master/docs/concepts-shareable-config.md
