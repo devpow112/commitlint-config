@@ -30,6 +30,17 @@ updates:
       prefix: chore
       include: scope
     groups:
-      commitlint:
+      eslint:
+        dependency-type: development
         patterns:
-        - '@commitlint/*'
+          - eslint
+          - '@devpow112/eslint-*'
+      commitlint:
+        dependency-type: development
+        patterns:
+          - '@commitlint/*'
+      semantic-release:
+        dependency-type: development
+        patterns:
+          - semantic-release
+          - '@devpow112/semantic-release-*'
