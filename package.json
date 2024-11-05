@@ -33,7 +33,7 @@
   "devDependencies": {
     "@commitlint/cli": "^19.5.0",
     "@commitlint/config-conventional": "^19.5.0",
-    "@devpow112/eslint-config": "^3.0.1",
+    "@devpow112/eslint-config": "^3.0.2",
     "@devpow112/semantic-release-config": "^3.0.0",
     "@eslint/compat": "^1.2.2",
     "@eslint/eslintrc": "^3.1.0",
