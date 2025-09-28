@@ -31,11 +31,11 @@
     "lint:pkg": "sort-package-json --check"
   },
   "dependencies": {
-    "@commitlint/cli": "^19",
+    "@commitlint/cli": "^20",
     "@commitlint/config-conventional": "^20"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19",
+    "@commitlint/cli": "^20",
     "@devpow112/eslint-config": "^4",
     "@devpow112/semantic-release-config": "^3",
     "@eslint/compat": "^1",
