@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/commitlint-config",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Shareable commitlint configuration",
   "keywords": [
     "commitlint-config"
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@commitlint/cli": "^19",
-    "@commitlint/config-conventional": "^19"
+    "@commitlint/config-conventional": "^20"
   },
   "devDependencies": {
     "@commitlint/cli": "^19",
