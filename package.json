@@ -1,6 +1,6 @@
 {
   "name": "@devpow112/commitlint-config",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Shareable commitlint configuration",
   "keywords": [
     "commitlint-config"
