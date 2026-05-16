@@ -37,7 +37,7 @@ updates:
           - '@eslint/*'
           - '@devpow112/eslint-*'
       commitlint:
-        dependency-type: development
+        dependency-type: production
         patterns:
           - '@commitlint/*'
       semantic-release:
