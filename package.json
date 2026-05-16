@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "@commitlint/cli": "^20",
-    "@commitlint/config-conventional": "^20"
+    "@commitlint/config-conventional": "^21"
   },
   "devDependencies": {
     "@commitlint/cli": "^20",
